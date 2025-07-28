@@ -69,10 +69,10 @@ namespace TimeClocker
         {
             hoursWorked += clocks[length - 1] - clocks[length - 2];
 
-            if (hoursWorked.TotalHours > 40)
+            if (hoursWorked.TotalHours > 80)
             {
                 lblOt.Visible = true;
-                double overtimeHours = hoursWorked.TotalHours - 40;
+                double overtimeHours = hoursWorked.TotalHours - 80;
                 lblOt.Text = "Overtime: " + overtimeHours.ToString("0.00");
             }
             return hoursWorked;
