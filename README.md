@@ -1,4 +1,4 @@
-Time Clocker v0.5
+Time Clocker v0.2.4
 
 Todo:  
 Undo reset button  
